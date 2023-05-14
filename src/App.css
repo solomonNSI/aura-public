@@ -48,18 +48,12 @@
     font-weight: 600;
     letter-spacing: -0.035em;
     margin: 20px 0 65px 0;
-
-    @media screen and (max-width: 600px) {
-        margin: 20px 0 0 0;
-    }
 }
 
 
 .headerSection {
     padding: 0 100px;
-    @media screen and (max-width: 1200px) {
-        padding: 0 10px;
-    }
+   
 }
 
 .bulletPoint {
@@ -69,10 +63,6 @@
     letter-spacing: -0.03em;
     margin-bottom: 16px;
     margin-top: -24px;
-
-    @media screen and (max-width: 600px) {
-        margin-top: 16px;
-    }
 }
 
 .bulletPoint2 {
@@ -82,10 +72,6 @@
     letter-spacing: -0.03em;
     margin-bottom: 16px;
     margin-top: -12px;
-
-    @media screen and (max-width: 600px) {
-        margin-top: 16px;
-    }
 }
 
 
@@ -98,10 +84,6 @@
     display: flex;
     justify-content: center;
     text-decoration: underline;
-    
-    @media screen and (max-width: 600px) {
-        padding: 0 20px;
-    }
 }
 
 .App-header a {
@@ -195,10 +177,6 @@ section {
     border-radius: 3px;
     width: 100%;
     margin: 0 20px;
-
-    @media screen and (max-width: 600px) {
-        display: none;
-    }
 }
 
 .colorStrip2 {
@@ -207,10 +185,6 @@ section {
     border-radius: 3px;
     width: 100%;
     margin: 0 20px;
-
-    @media screen and (max-width: 600px) {
-        display: none;
-    }
 }
 
 .colorStrip3 {
@@ -219,10 +193,6 @@ section {
     border-radius: 3px;
     width: 100%;
     margin: 0 20px;
-
-    @media screen and (max-width: 600px) {
-        display: none;
-    }
 }
 
 .colorStrip4 {
@@ -232,11 +202,7 @@ section {
     width: 100%;
     margin: 0 20px;
 
-    @media screen and (max-width: 600px) {
-        display: none;
-    }
 }
-
 
 #team .description {
   width: 60%;
@@ -401,4 +367,29 @@ section {
 
 #about a:hover {
   background-color: #aaa;
+}
+
+
+@media screen and (max-width: 600px) {
+    .colorStrip1,
+    .colorStrip2,
+    .colorStrip3,
+    .colorStrip4 {
+      display: none;
+    }
+    .title {
+        margin: 20px 0 0 0;
+    }
+    .bulletPoint, .bulletPoint2{
+        margin-top: 16px;
+    }
+    .bulletPointFinal {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .headerSection {
+        padding: 0 10px;
+    }
 }
