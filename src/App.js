@@ -19,7 +19,7 @@ const App = () => {
       
       <section className="appSection" id="about">
         <div className='title'>The Aura Palette: where words radiate with colors.</div>
-        <div style={{padding: "0 100px"}}>
+        <div className="headerSection">
             <div className="aboutText">
 
                 <div className='flexbox-right'>           
@@ -55,7 +55,7 @@ const App = () => {
                 <div className='flexbox'>         
                     <div className='colorStrip4'/>  
                     <div className='textSection'>   
-                        <div className="bulletPoint">An awe-inspiring Journey</div>
+                        <div className="bulletPoint">An Awe-inspiring Journey</div>
                         Embark on an awe-inspiring journey where words and colors unite to shape extraordinary narratives. Join us in this dynamic fusion of art and technology, where the boundaries of creativity are transcended.<br/><br/>
                     </div> 
                 </div>
