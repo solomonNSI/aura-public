@@ -3,7 +3,7 @@
 }
 
 .appSection {
-  background-color: #dddddd;
+  background-color: #eee;
   margin: 20px 4%;
   border-radius: 8px;
   border: none;
@@ -13,8 +13,13 @@
   justify-content: start;
 }
 
+.appSection h1 {
+    font-family: Palatino;
+    font-weight: 600;
+  }
+
 .App-header {
-  background-color: #dddddd;
+  background-color: #eee;
   height: 65px;
   box-sizing: border-box;
   color: white;
@@ -37,11 +42,50 @@
   color: black;
 }
 
+.title {
+    font-size: 30px;
+    font-family: Palatino;
+    font-weight: 600;
+    letter-spacing: -0.035em;
+    margin: 20px 0 65px 0;
+}
+
+.bulletPoint {
+    font-size: 22px;
+    font-family: Palatino;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+    margin-top: -24px;
+}
+
+.bulletPoint2 {
+    font-size: 22px;
+    font-family: Palatino;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+    margin-top: -12px;
+}
+
+
+.bulletPointFinal {
+    font-size: 24px;
+    font-family: Palatino;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+    margin: 30px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
 .App-header a {
+    font-family: Palatino;
   height: 50px;
   width: 140px;
   display: flex;
-  background-color: #bbb;
+  background-color: #ddd;
   align-items: center;
   justify-content: center;
   font-size: 18px;
@@ -98,10 +142,61 @@ section {
 }
 
 .aboutText {
-  max-width: 80%;
   line-height: 24px;
   margin-top: 20px;
+  text-align: left;
+  font-size: 15px;
 }
+
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.flexbox-right {
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+
+.textSection {
+    padding: 0 20px;
+    width: 100%;
+}
+
+.colorStrip1 {
+    background-color: #3498db;
+    height: 8px;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.colorStrip2 {
+    background-color: #2ecc71;
+    height: 8px;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 20px
+}
+
+.colorStrip3 {
+    background-color: #9b59b6;
+    height: 8px;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 20px
+}
+
+.colorStrip4 {
+    background-color: #e67e22;
+    height: 8px;
+    border-radius: 3px;
+    width: 100%;
+    margin: 0 20px
+}
+
 
 #team .description {
   width: 60%;
@@ -127,7 +222,7 @@ section {
 #team .member {
   height: auto;
   width: 20%;
-  background-color: #bbb;
+  background-color: #ddd;
   margin: 0 12px;
   padding: 20px;
   display: flex;
@@ -145,13 +240,16 @@ section {
 }
 
 #team .member .name {
-  font-size: 20px;
-  justify-self: flex-start;
+    font-family: Palatino;
+    font-weight: 600;
+    font-size: 20px;
+    justify-self: flex-start;
 }
 
 #team .member .position {
-  font-size: 16px;
-  margin-top: 10px;
+    font-family: Palatino;
+    font-size: 16px;
+    margin-top: 10px;
 }
 
 #team .member .work {
@@ -166,11 +264,12 @@ section {
 }
 
 #demo a {
+    font-family: Palatino;
   margin-top: 30px;
   height: auto;
   width: 20%;
   display: flex;
-  background-color: #bbb;
+  background-color: #ddd;
   align-items: center;
   justify-content: center;
   font-size: 18px;
@@ -196,7 +295,7 @@ section {
   height: auto;
   width: 40%;
   display: flex;
-  background-color: #bbb;
+  background-color: #ddd;
   align-items: center;
   justify-content: center;
   font-size: 16px;
@@ -222,7 +321,7 @@ section {
   height: auto;
   width: 20%;
   display: flex;
-  background-color: #bbb;
+  background-color: #ddd;
   align-items: center;
   justify-content: center;
   font-size: 16px;
@@ -249,16 +348,12 @@ section {
 }
 
 #about a {
-  margin-top: 30px;
   height: auto;
+  font-family: Palatino;
   width: 20%;
-  display: flex;
-  background-color: #bbb;
-  align-items: center;
-  justify-content: center;
+  background-color: #ddd;
   font-size: 18px;
   text-decoration: none;
-  line-height: 18px;
   color: black;
   font-weight: 500;
   border-radius: 4px;

@@ -18,13 +18,54 @@ const App = () => {
       <div className="gradientLine"></div>
       
       <section className="appSection" id="about">
-        <h1>The Aura Palette</h1>
-        <p className="aboutText">Where words radiate with colors.<br/><br/>
-        You are invited to a world at the intersection of language and art, where The Aura Palette reigns supreme! Experience the marvels of this groundbreaking project that reshapes the way we perceive and engage with text. We introduce a revolutionary tool that breathes life into words, transforming them into vibrant and captivating colors. Powered by cutting-edge artificial intelligence and natural language processing, The Aura Palette invites creative professionals, writers, designers, and artists of all kinds to effortlessly translate their literary masterpieces, brand identities, or even abstract thoughts into stunning color palettes.<br/><br/>
-        But it doesn't stop there. The Aura Palette goes beyond conventional tools by offering a selection of mediums to suit your creative projects while also recognizing the importance of accessibility and inclusivity. With its innovative features, you can simulate different types of color blindness, ensuring your creations are visually impactful for all audiences. By experiencing your work through the eyes of those with color vision deficiencies, you gain invaluable insights that elevate the design and amplify the message of your art. The Aura Palette empowers you to create with a sense of responsibility, embracing diversity and fostering a deeper connection with every viewer.<br/><br/>
-        Embark on a transformative journey where words and colors unite to shape extraordinary narratives and join us in this dynamic fusion of art and technology.<br/><br/>
-        Unleash your creativity, unleash the power of The Aura Palette.</p>
-        <a href="https://demo.aurapalette.app/">Try the Demo</a>
+        <div className='title'>The Aura Palette: where words radiate with colors.</div>
+        <div style={{padding: "0 100px"}}>
+            <div className="aboutText">
+
+                <div className='flexbox-right'>           
+                    <div className='textSection'>
+                        <div className="bulletPoint">Experience the Marvels of Language and Art</div>
+                        <div>You are invited to a world at the intersection of language and art, where The Aura Palette reigns supreme! Experience the marvels of this groundbreaking project that reshapes the way we perceive and engage with text.</div>
+                    </div>
+                    <div className='colorStrip1'/>
+                </div>
+
+
+
+                <div className='flexbox'>         
+                    <div className='colorStrip2'/>  
+                    <div className='textSection'>
+                        <div className="bulletPoint2">Breathing Life into Words</div>
+                        We introduce a revolutionary tool that breathes life into words, transforming them into vibrant and captivating colors. Powered by cutting-edge artificial intelligence and natural language processing, The Aura Palette invites creative professionals, writers, designers, and artists of all kinds to effortlessly translate their literary masterpieces, brand identities, or even abstract thoughts into stunning color palettes.
+                    </div> 
+                </div>
+
+
+
+                <div className='flexbox-right'>           
+                    <div className='textSection'>
+                        <div className="bulletPoint">Beyond Conventional Tools</div>
+                        But it doesn't stop there. The Aura Palette goes beyond conventional tools by offering a selection of mediums to suit your creative projects while also recognizing the importance of accessibility and inclusivity. With its innovative features, you can simulate different types of color blindness, ensuring your creations are visually impactful for all audiences. The Aura Palette empowers you to create with a sense of responsibility, embracing diversity and fostering a deeper connection with every viewer.
+                    </div>  
+                    <div className='colorStrip3'/>
+                </div>
+
+
+
+                <div className='flexbox'>         
+                    <div className='colorStrip4'/>  
+                    <div className='textSection'>   
+                        <div className="bulletPoint">An awe-inspiring Journey</div>
+                        Embark on an awe-inspiring journey where words and colors unite to shape extraordinary narratives. Join us in this dynamic fusion of art and technology, where the boundaries of creativity are transcended.<br/><br/>
+                    </div> 
+                </div>
+
+
+                <div className="bulletPointFinal">Unleash your creativity, unleash the power of The Aura Palette!</div>
+            </div>
+            <a href="https://demo.aurapalette.app/">Try the Demo</a>
+        </div>
+    
       </section>
 
       <section className="appSection" id="details">
@@ -37,32 +78,32 @@ const App = () => {
 
       <section className="appSection" id="team">
         <h1>Meet Our Team</h1>
-        <p className = "description">This is the "aura" team. Knowing each other, staying in communication, and helping each other made us a good team. Periodic meetings and roadmaps helped us achieve our goals.</p>
+        <p className = "description">This is Team Aura. Knowing each other, staying in communication, and helping each other made us a good team. Periodic meetings and roadmaps helped us achieve our goals.</p>
         <div className="members">
           <div className="member">
             <h2 className="name">Ata Seren</h2>
-            <p className="position">Backend Developer</p>
-            <p className="work">Researched and implemented ML algorithms, debugged ML, and helped the implementation of the database.</p>
+            <p className="position">Back-end Developer</p>
+            <p className="work">Our coding maestro behind the scenes, ensuring flawless back-end functionality.</p>
           </div>
           <div className="member">
             <h2 className="name">Ayda Yurtoğlu</h2>
-            <p className="position">Frontend Developer & Project Manager</p>
-            <p className="work">Did color harmony researches, front-end implementation, and task distribution and meeting plans.</p>
+            <p className="position">Front-end Developer & Project Manager</p>
+            <p className="work">The creative powerhouse behind color algorithms and seamless project management.</p>
           </div>
           <div className="member">
             <h2 className="name">Can Avşar</h2>
-            <p className="position">Frontend Developer & UI/UX Designer</p>
-            <p className="work">Designed logos and all user interface of the app, did user interface and front-end implementation.</p>
+            <p className="position">Front-end Developer & UI/UX Designer</p>
+            <p className="work">The artistic mind shaping stunning UI/UX designs for an immersive experience.</p>
           </div>
           <div className="member">
             <h2 className="name">Suleyman Hanyyev</h2>
             <p className="position">Team Lead & ML Engineer</p>
-            <p className="work">Was responsible for deployment, researched appropriate dataset and algorithms, made sure that the deadlines are met.</p>
+            <p className="work">Our dynamic R&D engineer, guiding success with expertise in ML engineering.</p>
           </div>
           <div className="member">
             <h2 className="name">Zeynepnur Cavcar</h2>
-            <p className="position">Backend Developer</p>
-            <p className="work">Executed backend, set up Firebase DB, authentication and Django using REST, and researched academic papers.</p>
+            <p className="position">Back-end Developer</p>
+            <p className="work">The technical wizard ensuring flawless functionality in our powerful back-end.</p>
           </div>
         </div>
       </section>
