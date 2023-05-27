@@ -115,6 +115,12 @@ const App = () => {
         <a href="https://docs.google.com/document/d/14P-eXy6u3TxRiCrVGTzCAYaOqO5kyKenyLHbgcYC9II/">Analysis and Requirement Report (Google Drive)</a>
         <a href="https://docs.google.com/document/d/19Di1V2xKOsz6DGKa9PNGr4RFw3Jnh7qTCEuLtEDQXw8/">Detailed Design Report (Google Drive)</a>
       </section>
+
+      <section className="appSection" id="logbook">
+        <h1>Final Presentation</h1>
+        <p className="description">Explore our final presentation as you navigate through the slides, accessible via the button below.</p>
+        <a href="https://drive.google.com/file/d/1djb06fWtRXYYMvjP8cFqal9HDINvRZUn/view?usp=sharing">View our Presentation</a>
+      </section>
       
       <section className="appSection" id="logbook">
         <h1>Logbook</h1>
