@@ -131,7 +131,7 @@ const App = () => {
       <section className="appSection" id="about">
 
         <div className="bulletPointFinal">Unleash your creativity, unleash the power of The Aura Palette!</div>
-        <a href="https://demo.aurapalette.app/">Try the Demo</a>
+        <a href="https://demo.aurapalette.app/">I'm ready, take me to the app!</a>
       </section>
 
 
