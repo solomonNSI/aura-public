@@ -18,6 +18,11 @@
   font-weight: 600;
 }
 
+.appSectionReports h1 {
+  font-family: Palatino;
+  font-weight: 600;
+}
+
 .App-header {
   background-color: #eee;
   height: 65px;
@@ -47,7 +52,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   letter-spacing: -0.035em;
-  margin: 20px 0 65px 0;
+  margin: 20px 0 30px 0;
 }
 
 
@@ -80,7 +85,7 @@
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   font-weight: 600;
   letter-spacing: -0.03em;
-  margin: 30px 0 50px 0;
+  margin: 10px 0 20px 0;
   display: flex;
   justify-content: center;
   text-decoration: underline;
@@ -130,6 +135,13 @@ p {
   zoom: 0.9;
 }
 
+.gradientLine2 {
+  background: linear-gradient(90deg, rgba(255, 0, 0) 7.81%, rgba(255, 153, 0) 14.58%, rgba(255, 212, 0) 31.27%, rgba(86, 196, 0) 64.95%, rgba(0, 148, 255) 87.36%, rgba(112, 0, 255) 97.55%);
+  height: 5px;
+  width: 100%;
+  zoom: 0.9;
+}
+
 section {
   margin: 50px 0;
   padding: 50px 0;
@@ -138,13 +150,18 @@ section {
 }
 
 .App-footer {
-  background-color: #282c34;
-  padding: 20px;
   color: white;
-  position: fixed;
   width: 100%;
   bottom: 0;
-  display: none;
+  background-color: #eee;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  text-align: left;
+  padding-left: 50px;
 }
 
 .aboutText {
@@ -212,9 +229,32 @@ section {
 
 }
 
+#team a {
+  color: black;
+  margin-top: 20px;
+  width: 25%;
+  display: flex;
+  background-color: #eee;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  text-decoration: none;
+  line-height: 18px;
+  font-weight: 500;
+  border-radius: 4px;
+  padding: 10px 26px;
+}
+
+.image {
+  width: 40%;
+  padding: 5px;
+  border-radius: 10%;
+  background: linear-gradient(90deg, rgba(255, 0, 0) 7.81%, rgba(255, 153, 0) 14.58%, rgba(255, 212, 0) 31.27%, rgba(86, 196, 0) 64.95%, rgba(0, 148, 255) 87.36%, rgba(112, 0, 255) 97.55%);;
+}
+
 #team .description {
   width: 60%;
-  margin: 20px 0px 0px;
+  margin: 20px 0 30px 0;
 }
 
 #team .members {
@@ -236,7 +276,7 @@ section {
 #team .member {
   height: auto;
   width: 20%;
-  background-color: #bbb;
+  background-color: #ddd;
   margin: 0 12px;
   padding: 20px;
   display: flex;
@@ -298,9 +338,25 @@ section {
   background-color: #aaa;
 }
 
+.appSectionReports {
+  background-color: #eee;
+  margin: 20px 4%;
+  border-radius: 8px;
+  border: none;
+  align-items: start;
+  display: flex;
+} 
+
 #reports .description {
-  width: 60%;
-  margin: 20px 0px 0px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#reports .text {
+  padding: 20px 100px 10px 100px;
 }
 
 #reports a {
@@ -377,9 +433,32 @@ section {
   background-color: #aaa;
 }
 
+.intro {
+  padding: 10px 200px 30px 200px;
+}
 
 @media screen and (max-width: 600px) {
+  .intro {
+    padding: 10px 0px 30px 0;
+  }
 
+  .image {
+    width: 90%
+  }
+
+  .appSectionReports {
+    flex-direction: column;
+  }
+
+  #reports .description {
+    width: 100%;
+  }
+  #reports .text {
+    padding: 20px 30px 10px 30px;
+  }
+  #reports .finaltitle {
+    margin-top: 40px;
+  }
   .colorStrip1,
   .colorStrip2,
   .colorStrip3,
@@ -399,6 +478,7 @@ section {
 
   .bulletPointFinal {
     padding: 0 20px;
+    text-align: center;
   }
 }
 
