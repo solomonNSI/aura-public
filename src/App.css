@@ -126,6 +126,10 @@ p {
   font-size: 16px;
 }
 
+.info p {
+  font-size: 14px;
+}
+
 .gradientLine {
   background: linear-gradient(90deg, rgba(255, 0, 0) 7.81%, rgba(255, 153, 0) 14.58%, rgba(255, 212, 0) 31.27%, rgba(86, 196, 0) 64.95%, rgba(0, 148, 255) 87.36%, rgba(112, 0, 255) 97.55%);
   height: 5px;

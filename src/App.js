@@ -143,7 +143,7 @@ const App = () => {
           <p><span>Instructors:</span> Erhan Dolak and Tağmaç Topal<br/></p>
         </div>
         <div style={{paddingRight: "50px"}}>
-          <p>© 2023 The Aura Palette</p>
+          <p style={{fontSize: "14px"}}>© 2023 The Aura Palette</p>
         </div>
       </footer>
 
